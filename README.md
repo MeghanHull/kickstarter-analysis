@@ -11,13 +11,13 @@ The purpose of this analysis is to analyze how different Kickstarter campaigns f
 
 ### Analysis of Outcomes Based on Launch Date
 From the raw Kickstarter data, the "launch_at" date was converted from Unix timestamps to Gregorian calendar dates, and the "Category and Subcategory" field was parsed into two columns.  A pivot table was generated of campaign outcomes by launch month, excluding currently active (i.e. "live") Kickstarter campaigns.  Results were filtered to only include campaigns in the Theater category (totaling 1369 campains). The chart "Theater Outcomes vs. Launch Date" below graphically illustrates this data, for all countries and all years (17 May 2009 to 15 Mar 2017).
-![Theater_Outcomes_vs_Launch.png](Theater_Outcomes_vs_Launch.png)
+![Theater_Outcomes_vs_Launch.png](resources/Theater_Outcomes_vs_Launch.png)
 The pivot table and data associated with this chart are available in the **"Theater Outcomes by Launch Date" worksheet** in the Excel file:
 [Kickstarter_Challenge.xlsx](Kickstarter_Challenge.xlsx)
 
 ### Analysis of Outcomes Based on Goals
 Continuing the analysis of outcomes, the percentage of successful, failed, and canceled plays was calculated based on the funding goal amount.  Again, currently active (i.e. "live") Kickstarter campaigns were excluded.  The data set was further limited to exclude the two non-play subcategories ("musicals" and "spaces") in the Theater category. This leaves 1047 campaigns for assessment.  Funding goals were group into twelve ranges, from "Less than $1000" to "$50000 or more".  The **COUNTIFS** function in Excel was used to determine the number of campaigns in each range that met the criteria.  The chart "Outcomes Based on Goal" below graphically illustrates this data, for all countries.
-![Outcomes_vs_Goals.png](Outcomes_vs_Goals.png)
+![Outcomes_vs_Goals.png](resources/Outcomes_vs_Goals.png)
 The calculations and data associated with this chart are available in the **"Outcomes Based on Goals" worksheet** in the Excel file:
 [Kickstarter_Challenge.xlsx](Kickstarter_Challenge.xlsx)
 
