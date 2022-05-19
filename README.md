@@ -11,7 +11,7 @@ The purpose of this analysis is to analyze how different Kickstarter campaigns f
 
 ### Analysis of Outcomes Based on Launch Date
 From the raw Kickstarter data, the "launch_at" date was converted from Unix timestamps to Gregorian calendar dates, and the "Category and Subcategory" field was parsed into two columns.  A pivot table was generated of campaign outcomes by month
-![Theater_Outcomes_vs_Launch.png](/assets/images/Theater_Outcomes_vs_Launch.png)
+![Theater_Outcomes_vs_Launch.png](Theater_Outcomes_vs_Launch.png)
 
 ### Analysis of Outcomes Based on Goals
 
